@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 //@RunWith("Spring")
 public class DepartmentDaoTest {
-
+    
     @Test
     public void getDepartmentsTest() {
         DepartmentJDBCDao departmentJDBCDao = new DepartmentJDBCDao();
